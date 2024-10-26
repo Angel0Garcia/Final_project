@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeStore.Web", "SmokeStore.Web\SmokeStore.Web.csproj", "{2D7D89D2-184A-4918-9A49-4B7DAD952DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeStore.Application", "SmokeStore.Application\SmokeStore.Application.csproj", "{9AD35E34-2E9B-4637-915E-53ED5C4C4401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeStore.Domain", "SmokeStore.Domain\SmokeStore.Domain.csproj", "{A79A30ED-CD59-457B-8C93-9088E5AC4B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeStore.Infrastructure", "SmokeStore.Infrastructure\SmokeStore.Infrastructure.csproj", "{5961F6DE-7BBC-4AEB-AA73-D1C0FC5C4C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeStore.IOC", "SmokeStore.IOC\SmokeStore.IOC.csproj", "{CED8CF2D-43BF-4080-97C3-6B4AB6CD47D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeStore.Api", "SmokeStore.Api\SmokeStore.Api.csproj", "{956D21E1-22FC-46FD-A821-37914B74AC58}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7D89D2-184A-4918-9A49-4B7DAD952DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7D89D2-184A-4918-9A49-4B7DAD952DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7D89D2-184A-4918-9A49-4B7DAD952DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7D89D2-184A-4918-9A49-4B7DAD952DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD35E34-2E9B-4637-915E-53ED5C4C4401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD35E34-2E9B-4637-915E-53ED5C4C4401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD35E34-2E9B-4637-915E-53ED5C4C4401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD35E34-2E9B-4637-915E-53ED5C4C4401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79A30ED-CD59-457B-8C93-9088E5AC4B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79A30ED-CD59-457B-8C93-9088E5AC4B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79A30ED-CD59-457B-8C93-9088E5AC4B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79A30ED-CD59-457B-8C93-9088E5AC4B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5961F6DE-7BBC-4AEB-AA73-D1C0FC5C4C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5961F6DE-7BBC-4AEB-AA73-D1C0FC5C4C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5961F6DE-7BBC-4AEB-AA73-D1C0FC5C4C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5961F6DE-7BBC-4AEB-AA73-D1C0FC5C4C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED8CF2D-43BF-4080-97C3-6B4AB6CD47D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED8CF2D-43BF-4080-97C3-6B4AB6CD47D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED8CF2D-43BF-4080-97C3-6B4AB6CD47D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED8CF2D-43BF-4080-97C3-6B4AB6CD47D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956D21E1-22FC-46FD-A821-37914B74AC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956D21E1-22FC-46FD-A821-37914B74AC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956D21E1-22FC-46FD-A821-37914B74AC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956D21E1-22FC-46FD-A821-37914B74AC58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
